@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 # CarLendingPortal
+<<<<<<< HEAD
 =======
 # CarLendingPortal
+=======
+>>>>>>> 599d096cf2809e35b18bca42c95f26baa51b5c1b
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
@@ -28,4 +31,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<<<<<<< HEAD
 >>>>>>> 082d996 (initial commit)
+=======
+=======
+# CarLendingPortal
+>>>>>>> origin/main
+>>>>>>> 599d096cf2809e35b18bca42c95f26baa51b5c1b
