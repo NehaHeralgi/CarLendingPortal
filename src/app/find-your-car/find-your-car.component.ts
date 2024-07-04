@@ -23,9 +23,9 @@ export class FindYourCarComponent implements OnInit {
   ];
 
   vehicleOptions = [
-    { label: 'x', value: 'html' },
-    { label: 'y', value: 'css' },
-    { label: 'z', value: 'js' }
+    { label: 'x', value: 'x' },
+    { label: 'y', value: 'y' },
+    { label: 'z', value: 'z' }
   ];
 
   selectCar(type: string): void {
