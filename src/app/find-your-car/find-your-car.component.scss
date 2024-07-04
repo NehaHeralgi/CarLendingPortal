@@ -1,0 +1,57 @@
+h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    color: #666;
+  }
+  
+  .card {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .car-button {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .car-button.active {
+    background-color: red;
+    color: white;
+  }
+  
+  .radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .search-button {
+    display: block;
+    width: 100%;
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: darkred;
+  }
+  

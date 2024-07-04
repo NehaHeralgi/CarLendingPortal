@@ -1,0 +1,16 @@
+<h2>Find Your Car</h2>
+<p>Better utility and more performance guarantee</p>
+
+<p-card class="card">
+  <div class="button-group">
+    <button pButton type="button" label="New Car" class="car-button" [ngClass]="{'active': selectedCar === 'new'}" (click)="selectCar('new')"></button>
+    <button pButton type="button" label="Used Car" class="car-button" [ngClass]="{'active': selectedCar === 'used'}" (click)="selectCar('used')"></button>
+  </div>
+  <div class="radio-group">
+    <p-radioButton name="group1" value="budget" label="BY BUDGET" [(ngModel)]="selectedOption"></p-radioButton>
+    <p-radioButton name="group1" value="usage" label="BY USAGE" [(ngModel)]="selectedOption"></p-radioButton>
+  </div>
+  <p-dropdown [options]="budgetOptions" [(ngModel)]="selectedBudget" placeholder="Select Budget"></p-dropdown>
+  <p-dropdown [options]="vehicleOptions" [(ngModel)]="selectedVehicle" placeholder="Select Vehicle"></p-dropdown>
+  <button pButton type="button" label="Search" class="search-button"></button>
+</p-card>
