@@ -10,7 +10,14 @@
     <p-radioButton name="group1" value="budget" label="BY BUDGET" [(ngModel)]="selectedOption"></p-radioButton>
     <p-radioButton name="group1" value="usage" label="BY USAGE" [(ngModel)]="selectedOption"></p-radioButton>
   </div>
+  <div class="dropdown">
+
+  
   <p-dropdown [options]="budgetOptions" [(ngModel)]="selectedBudget" placeholder="Select Budget"></p-dropdown>
   <p-dropdown [options]="vehicleOptions" [(ngModel)]="selectedVehicle" placeholder="Select Vehicle"></p-dropdown>
-  <button pButton type="button" label="Search" class="search-button"></button>
+  </div>
+  <div class="search">
+    <button pButton type="button" label="Search" class="search-button"></button>
+  </div>
+ 
 </p-card>

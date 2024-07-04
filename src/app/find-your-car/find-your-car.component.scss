@@ -25,10 +25,12 @@ h2 {
     color: #333;
     border: 1px solid #ccc;
     transition: background-color 0.3s, color 0.3s;
+    height: 50px;
+    width: 200px;
   }
   
   .car-button.active {
-    background-color: red;
+    background-color: rgb(199, 0, 0);
     color: white;
   }
   
@@ -46,12 +48,25 @@ h2 {
   .search-button {
     display: block;
     width: 100%;
-    background-color: red;
+    background-color: rgb(199, 0, 0);
     color: white;
     transition: background-color 0.3s, color 0.3s;
+    height: 50px;
+    width: 200px;
   }
   
   .search-button:hover {
     background-color: darkred;
   }
   
+  .dropdown{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .search{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
