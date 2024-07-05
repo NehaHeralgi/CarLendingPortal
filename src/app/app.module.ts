@@ -11,11 +11,13 @@ import { CardModule } from 'primeng/card';
 import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FindYourCarComponent
+    FindYourCarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
