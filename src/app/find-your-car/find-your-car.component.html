@@ -1,7 +1,9 @@
+
+<p-card class="card">
 <h1>Find Your Car</h1>
 <p>Better utility and more performance guarantee</p>
 
-<p-card class="card">
+
   <div class="card-border">
     <div class="button-group">
       <button pButton type="button" label="New Car" class="car-button" [ngClass]="{'active': selectedCar === 'new'}" (click)="selectCar('new')"></button>
@@ -12,8 +14,8 @@
       <p-radioButton name="group1" value="usage" label="BY USAGE" [(ngModel)]="selectedOption"></p-radioButton>
     </div>
     <div class="dropdown">
-    <p-dropdown  [options]="budgetOptions" [(ngModel)]="selectedBudget" placeholder="Select Budget"></p-dropdown>
-    <p-dropdown  [options]="vehicleOptions" [(ngModel)]="selectedVehicle" placeholder="Select Vehicle"></p-dropdown>
+    <p-dropdown class="drop-item" [options]="budgetOptions" [(ngModel)]="selectedBudget" placeholder="Select Budget"></p-dropdown>
+    <p-dropdown class="drop-item" [options]="vehicleOptions" [(ngModel)]="selectedVehicle" placeholder="Select Vehicle"></p-dropdown>
     </div>
     <div class="search">
       <button pButton type="button" label="Search" class="search-button"></button>
