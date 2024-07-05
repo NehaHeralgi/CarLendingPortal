@@ -11,16 +11,7 @@ export class FindYourCarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  images: {url: string, name: string}[] = [
-    {url: 'assets/images/car1.jpg', name: 'Car 1'},
-    {url: 'assets/images/car2.jpg', name: 'Car 2'},
-    {url: 'assets/images/car3.jpg', name: 'Car 3'}
-  ];
-
-  displayCarInfo(index: number) {
-    alert(`Displaying information for ${this.images[index].name}`);
-    // You can replace the alert with code to display more detailed information
-  }
+  
 
   selectedCar: string | undefined;
   selectedOption: string | undefined;
