@@ -1,4 +1,14 @@
 
+
+
+
+<p-carousel [value]="slides" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
+  <ng-template pTemplate="item" let-slide>
+    <img [src]="slide" alt="Car image" class="carousel-img">
+  </ng-template>
+</p-carousel>
+<div class="transparent">
+
 <p-card class="card">
   
     <h1>Find Your Car</h1>
@@ -20,6 +30,10 @@
       <div class="search">
         <button pButton type="button" label="Search" class="search-button"></button>
       </div>
-    </div>
+  
 
+  </div>
+  
 </p-card>
+
+</div>

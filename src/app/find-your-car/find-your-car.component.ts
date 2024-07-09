@@ -11,7 +11,11 @@ export class FindYourCarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+  slides = [
+    'assets/Media/CarImages/mercedes.jpg',
+    'assets/car2.jpg',
+    'assets/car3.jpg'
+  ];
 
   selectedCar: string | undefined;
   selectedOption: string | undefined;

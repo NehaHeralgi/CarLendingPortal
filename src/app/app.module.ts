@@ -12,6 +12,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
+import { CarouselModule } from 'primeng/carousel';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HomeComponent } from './home/home.component';
     CardModule,
     DropdownModule,
     RadioButtonModule,
+    CarouselModule
     
   ],
   providers: [],
