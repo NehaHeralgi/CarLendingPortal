@@ -1,0 +1,36 @@
+<p-menubar styleClass="custom-menubar">
+    <ng-template pTemplate="start">
+      <a (click)="showSidebar()" class="menu-link">
+        <i class="pi pi-bars"></i> Menu
+      </a>
+      <a class="menu-link">logo</a>
+    </ng-template>
+    <ng-template pTemplate="end">
+      <a routerLink="/home" class="menu-link">Home</a>
+      <a routerLink="/aboutus" class="menu-link">About Us</a>
+      <a routerLink="/cars" class="menu-link">Cars</a>
+      <a routerLink="/services" class="menu-link">Services</a>
+      <a routerLink="/myworkspace" class="menu-link">My Workspace</a>
+      <a routerLink="/notifications" class="menu-link">
+        <i class="pi pi-bell"></i>
+      </a>
+      <a routerLink="/settings" class="menu-link">
+        <i class="pi pi-cog"></i>
+      </a>
+      <a routerLink="/profile" class="menu-link">
+        <i class="pi pi-user"></i>
+      </a>
+    </ng-template>
+  </p-menubar>
+  
+  <p-sidebar [(visible)]="sidebarVisible" [baseZIndex]="10000" [style]="{'width':'250px','background-color':'black','color':'white'}">
+    <ul>
+      <li><a routerLink="/home" style="color: white;"><i class="pi pi-home"></i> Home</a></li>
+      <li><a routerLink="/profile" style="color: white;"><i class="pi pi-user"></i> Profile</a></li>
+      <li><a routerLink="/purchases" style="color: white;"><i class="pi pi-shopping-cart"></i> Purchases</a></li>
+      <li><a routerLink="/returns" style="color: white;"><i class="pi pi-refresh"></i> Returns</a></li>
+      <li><a routerLink="/gallery" style="color: white;"><i class="pi pi-image"></i> Gallery</a></li>
+      <li><a routerLink="/settings" style="color: white;"><i class="pi pi-cog"></i> Settings</a></li>
+    </ul>
+  </p-sidebar>
+  

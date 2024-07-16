@@ -13,12 +13,16 @@ import { RadioButtonModule } from 'primeng/radiobutton';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { CarouselModule } from 'primeng/carousel';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MenubarModule } from 'primeng/menubar';
+import { SidebarModule } from 'primeng/sidebar';
 
 @NgModule({
   declarations: [
     AppComponent,
     FindYourCarComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,9 @@ import { CarouselModule } from 'primeng/carousel';
     CardModule,
     DropdownModule,
     RadioButtonModule,
-    CarouselModule
+    CarouselModule,
+    MenubarModule,
+    SidebarModule
     
   ],
   providers: [],
