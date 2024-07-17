@@ -86,15 +86,15 @@ h1 {
 
   .carousel-img {
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
   }
   
   .card {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.541);
+    background: rgba(255, 255, 255, 0.541) !important;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

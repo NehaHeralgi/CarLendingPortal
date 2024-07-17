@@ -9,4 +9,28 @@ a {
     margin-right: 15px;
     cursor: pointer;
   }
+  .custom-menubar{
+    background-color: black;
+    color: white;
+  }
+  p-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
   
+  p-sidebar ul li {
+    margin: 15px 0;
+  }
+
+  p-sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  p-sidebar ul li a i {
+    margin-right: 10px;
+  }

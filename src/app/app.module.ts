@@ -16,13 +16,16 @@ import { CarouselModule } from 'primeng/carousel';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MenubarModule } from 'primeng/menubar';
 import { SidebarModule } from 'primeng/sidebar';
+import { FooterComponent } from './footer/footer.component';
+import { PanelModule } from 'primeng/panel';
 
 @NgModule({
   declarations: [
     AppComponent,
     FindYourCarComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { SidebarModule } from 'primeng/sidebar';
     RadioButtonModule,
     CarouselModule,
     MenubarModule,
-    SidebarModule
+    SidebarModule,
+    PanelModule
     
   ],
   providers: [],
