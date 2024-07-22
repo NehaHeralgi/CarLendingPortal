@@ -18,6 +18,8 @@ import { MenubarModule } from 'primeng/menubar';
 import { SidebarModule } from 'primeng/sidebar';
 import { FooterComponent } from './footer/footer.component';
 import { PanelModule } from 'primeng/panel';
+import { CarlistComponent } from './carlist/carlist.component';
+import { TabViewModule } from 'primeng/tabview';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { PanelModule } from 'primeng/panel';
     FindYourCarComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CarlistComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import { PanelModule } from 'primeng/panel';
     CarouselModule,
     MenubarModule,
     SidebarModule,
-    PanelModule
+    PanelModule,
+    TabViewModule
     
   ],
   providers: [],

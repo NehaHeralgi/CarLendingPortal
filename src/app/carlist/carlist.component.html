@@ -1,0 +1,67 @@
+<p-tabView>
+    <p-tabPanel header="Popular">
+      <div class="car-grid">
+        <div class="car-card" *ngFor="let car of popularCars">
+          <p-card>
+            <ng-template pTemplate="header">
+              <img src="{{car.imageUrl}}" alt="{{car.name}}" class="car-image">
+            </ng-template>
+            <div class="car-details">
+              <h2>{{car.name}}</h2>
+              <p class="car-amount">{{car.amount | currency:'USD'}}</p>
+              <button pButton type="button" label="Select" class="p-button-primary"></button>
+            </div>
+          </p-card>
+        </div>
+      </div>
+    </p-tabPanel>
+    <p-tabPanel header="Large">
+      <div class="car-grid">
+        <div class="car-card" *ngFor="let car of largeCars">
+          <p-card>
+            <ng-template pTemplate="header">
+              <img src="{{car.imageUrl}}" alt="{{car.name}}" class="car-image">
+            </ng-template>
+            <div class="car-details">
+              <h2>{{car.name}}</h2>
+              <p class="car-amount">{{car.amount | currency:'USD'}}</p>
+              <button pButton type="button" label="Select" class="p-button-primary"></button>
+            </div>
+          </p-card>
+        </div>
+      </div>
+    </p-tabPanel>
+    <p-tabPanel header="Small">
+      <div class="car-grid">
+        <div class="car-card" *ngFor="let car of smallCars">
+          <p-card>
+            <ng-template pTemplate="header">
+              <img src="{{car.imageUrl}}" alt="{{car.name}}" class="car-image">
+            </ng-template>
+            <div class="car-details">
+              <h2>{{car.name}}</h2>
+              <p class="car-amount">{{car.amount | currency:'USD'}}</p>
+              <button pButton type="button" label="Select" class="p-button-primary"></button>
+            </div>
+          </p-card>
+        </div>
+      </div>
+    </p-tabPanel>
+    <p-tabPanel header="Exclusive">
+      <div class="car-grid">
+        <div class="car-card" *ngFor="let car of exclusiveCars">
+          <p-card>
+            <ng-template pTemplate="header">
+              <img src="{{car.imageUrl}}" alt="{{car.name}}" class="car-image">
+            </ng-template>
+            <div class="car-details">
+              <h2>{{car.name}}</h2>
+              <p class="car-amount">{{car.amount | currency:'USD'}}</p>
+              <button pButton type="button" label="Select" class="p-button-primary"></button>
+            </div>
+          </p-card>
+        </div>
+      </div>
+    </p-tabPanel>
+  </p-tabView>
+  

@@ -13,8 +13,8 @@ export class FindYourCarComponent implements OnInit {
   }
   slides = [
     'assets/Media/CarImages/mercedes.jpg',
-    'assets/car2.jpg',
-    'assets/car3.jpg'
+    'assets/Media/CarImages/hyundai.webp',
+    // 'assets/car3.jpg'
   ];
 
   selectedCar: string | undefined;
